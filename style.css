@@ -16,7 +16,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url(https://zonalogo.com/assets/amazon-logo-png-svg.webp?asset=1956);
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg);
     background-size: cover;
     background-position: center;
     height: 50px;
@@ -201,3 +201,94 @@ span{
 .art-box h2{
     margin-left: 10px;
 }
+
+/** long box **/
+.long-box {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right:17px;
+    margin-bottom: 15px;
+}
+.long-box h2{
+    margin: 0 0 15px 0;
+}
+.product-row{
+    display: flex;
+    gap: 3px;
+}
+.product-row img{
+    width: 170px;
+    height: 190px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+/** footer **/
+footer{
+    margin-top:5px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 50px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    margin:5px; 
+}
+
+
+
+
+
+
