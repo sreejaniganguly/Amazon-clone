@@ -1,6 +1,6 @@
 # Amazon Homepage Clone
 
-A beginner-friendly frontend project recreating the Amazon homepage using just HTML and CSS.
+A frontend cole project recreating the Amazon homepage using just HTML and CSS.
 
 ## Technologies Used
 - HTML
@@ -11,6 +11,7 @@ A beginner-friendly frontend project recreating the Amazon homepage using just H
 - Search bar
 - Hero section
 - Category cards
+- Foot section
 
 ## Purpose
 This project was created for learning and practicing HTML and CSS.
