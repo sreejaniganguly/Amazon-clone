@@ -172,8 +172,8 @@ span{
     
 }
 .box-content{
-    margin-left:15px;
-    margin-right: 15px;
+    height: 100%;
+
 }
 .box-content p{
     color: rgb(3, 3, 51);
@@ -192,18 +192,33 @@ span{
 .box p{
     margin: 15px 15px 0;
 }
+.furniture-box{
+    height: 400px;
+}
 .furniture-box h2{
     margin-left: 10px;
+}
+.living-box{
+    height: 400px;
 }
 .living-box h2{
     margin-left: 10px;
 }
+.art-box{
+    height: 400px;
+}
 .art-box h2{
+    margin-left: 6px;
+}
+.gym-box{
+    height: 400px;
+}
+.gym-box h2{
     margin-left: 10px;
 }
-
 /** long box **/
 .long-box {
+    position: relative;
     background-color: white;
     width: 100%;
     height: 300px;
@@ -214,19 +229,35 @@ span{
     margin-right:17px;
     margin-bottom: 15px;
 }
+.long-box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
 .long-box h2{
     margin: 0 0 15px 0;
 }
 .product-row{
     display: flex;
-    gap: 3px;
+    gap: 5px;
+    overflow: hidden;
 }
 .product-row img{
     width: 170px;
     height: 190px;
     object-fit: contain;
     flex-shrink: 0;
-    margin-left: 8px;
+    margin-left: 3px;
+}
+.arrow{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    cursor: pointer;
+
 }
 /** footer **/
 footer{
