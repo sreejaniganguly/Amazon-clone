@@ -8,6 +8,7 @@ A frontend cole project recreating the Amazon homepage using just HTML and CSS.
 
 ## Website Preview
 ![image](https://github.com/sreejaniganguly/Amazon-clone/blob/4fdeae60177fbd5b6080a4ddee866c837e9a89e4/Screenshot1.png)
+![image](https://github.com/sreejaniganguly/Amazon-clone/blob/0334a7fa63b40216187e2db58b10251e2cc98c38/screenshot2.png)
 
 ## Features
 - Amazon-style navigation bar
